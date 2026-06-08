@@ -27,10 +27,13 @@ XINTERVIEWX is an AI-powered video analysis platform designed for companies that
 5. **Candidate Scoring** — Automated, rubric-based scoring with support for side-by-side candidate comparison
 6. **Interview Reports** — Auto-generated structured reports with highlighted quotes, competency scores, sentiment summary, and hiring recommendations
 7. **Dashboard & Pipeline View** — Visual overview of all sessions, candidate status, role pipeline, and team-level hiring metrics
+8. **Candidate Comparison Dashboard** — Side-by-side view comparing multiple candidates who interviewed for the same role, based on their analysis scores and key competency signals; lets hiring managers make data-backed final decisions at a glance
+9. **Interview Question Bank** — A curated, role-organized library of recommended interview questions that standardizes what gets asked, ensuring every session produces consistently analyzable data
+10. **Team Interview Reports** — Weekly/monthly digest reports surfacing trends across all interviews: average scores, common strengths and weaknesses spotted by AI, and hiring velocity metrics for the company owner or manager
 
 ## Positioning
 
-Interview Analyzer is an internal enterprise tool that acts as the intelligent backbone of a company's hiring process. It replaces subjective, inconsistent, note-heavy evaluations with data-backed analysis — reducing interviewer bias, accelerating decision-making, and creating a fully auditable record for every hiring decision.
+XINTERVIEWX is an internal enterprise tool that acts as the intelligent backbone of a company's hiring process. It replaces subjective, inconsistent, note-heavy evaluations with data-backed analysis — reducing interviewer bias, accelerating decision-making, and creating a fully auditable record for every hiring decision.
 
 **Key differentiator**: It does not replace human judgment — it removes the noise around it, so hiring teams focus on what matters most.
 
