@@ -8,7 +8,7 @@
 
 ## What It Does
 
-Interview Analyzer is an AI-powered video analysis platform designed for companies that conduct structured hiring interviews. It ingests recorded interview sessions, automatically transcribes conversations, analyzes sentiment and tone, detects competency signals, and generates structured evaluation reports — transforming raw video footage into consistent, objective, and audit-ready hiring intelligence.
+XINTERVIEWX is an AI-powered video analysis platform designed for companies that conduct structured hiring interviews. It ingests recorded interview sessions, automatically transcribes conversations, analyzes sentiment and tone, detects competency signals, and generates structured evaluation reports — transforming raw video footage into consistent, objective, and audit-ready hiring intelligence.
 
 ## Target Users
 
