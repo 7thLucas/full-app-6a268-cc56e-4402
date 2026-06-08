@@ -1,8 +1,8 @@
-# Interview Analyzer
+# XINTERVIEWX
 
 ## Product
 
-**Name**: Interview Analyzer
+**Name**: XINTERVIEWX
 **Type**: Internal web application
 **Category**: AI-powered HR & Recruitment Technology
 
