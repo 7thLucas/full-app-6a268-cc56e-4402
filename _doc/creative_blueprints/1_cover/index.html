@@ -1,0 +1,62 @@
+<style>
+.mode-landscape .sl-root { flex-direction: row; }
+.mode-portrait .sl-root { flex-direction: column; }
+.mode-landscape .sl-left { width: 54%; height: 100%; }
+.mode-landscape .sl-right { width: 46%; height: 100%; }
+.mode-portrait .sl-left { width: 100%; flex: 0 0 58%; }
+.mode-portrait .sl-right { width: 100%; flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-root flex h-full">
+
+    <!-- Left: content panel -->
+    <div class="sl-left flex flex-col justify-between p-12" style="background:#0f172a;">
+      <div>
+        <!-- Tag -->
+        <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-10" style="background:rgba(14,165,233,0.15);border:1px solid rgba(14,165,233,0.35);">
+          <span class="w-2 h-2 rounded-full" style="background:#0ea5e9;"></span>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#7dd3fc;">AI-Powered HR Tech</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="font-black leading-none mb-6" style="font-size:2.9rem;color:#ffffff;line-height:1.08;">
+          Every Interview.<br/>Every Insight.<br/>
+          <span style="color:#0ea5e9;">Captured.</span>
+        </h1>
+
+        <!-- Tagline -->
+        <p class="leading-relaxed" style="font-size:1.05rem;color:#94a3b8;max-width:26rem;">
+          AI video analysis that turns your interview recordings into objective evaluations, structured reports, and faster hiring decisions.
+        </p>
+
+        <!-- Divider -->
+        <div class="mt-8 mb-8" style="width:3rem;height:3px;background:#0ea5e9;border-radius:2px;"></div>
+
+        <!-- Feature pills -->
+        <div class="flex flex-wrap gap-2">
+          <span class="rounded-full px-3 py-1 text-xs font-semibold" style="background:rgba(255,255,255,0.08);color:#cbd5e1;">AI Transcription</span>
+          <span class="rounded-full px-3 py-1 text-xs font-semibold" style="background:rgba(255,255,255,0.08);color:#cbd5e1;">Sentiment Analysis</span>
+          <span class="rounded-full px-3 py-1 text-xs font-semibold" style="background:rgba(255,255,255,0.08);color:#cbd5e1;">Competency Scoring</span>
+          <span class="rounded-full px-3 py-1 text-xs font-semibold" style="background:rgba(255,255,255,0.08);color:#cbd5e1;">Auto Reports</span>
+        </div>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: image -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=professional%20HR%20manager%20reviewing%20AI-powered%20video%20interview%20analysis%20dashboard%20on%20a%20large%20monitor%2C%20modern%20enterprise%20office%2C%20deep%20navy%20and%20sky%20blue%20tones%2C%20cinematic%20lighting%2C%20photorealistic"
+        class="w-full h-full object-cover"
+        alt="Interview Analyzer in action"
+      />
+      <div class="absolute inset-0" style="background:linear-gradient(to right, rgba(15,23,42,0.45), transparent);"></div>
+    </div>
+
+  </div>
+</section>
