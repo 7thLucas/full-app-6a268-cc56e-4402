@@ -1,0 +1,90 @@
+<style>
+.mode-landscape .sl-root { flex-direction: row; align-items: stretch; }
+.mode-portrait .sl-root { flex-direction: column; }
+.mode-landscape .sl-problem { width: 48%; border-right: 1.5px solid #e2e8f0; }
+.mode-landscape .sl-solution { width: 52%; }
+.mode-portrait .sl-problem { width: 100%; border-bottom: 1.5px solid #e2e8f0; border-right: none; }
+.mode-portrait .sl-solution { width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-root flex h-full">
+
+    <!-- Problem side -->
+    <div class="sl-problem flex flex-col p-10" style="background:#fafafa;">
+      <!-- Label -->
+      <div class="inline-flex items-center gap-2 rounded-md px-3 py-1 mb-5 self-start" style="background:#fee2e2;">
+        <span style="color:#ef4444;font-size:0.95rem;">⚠</span>
+        <span class="text-xs font-bold uppercase tracking-wider" style="color:#dc2626;">The Problem</span>
+      </div>
+
+      <h2 class="font-bold mb-6" style="font-size:1.5rem;color:#0f172a;line-height:1.25;">
+        Interview Data Gets Lost<br/>in the Process
+      </h2>
+
+      <div class="flex flex-col gap-4">
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold" style="background:#fee2e2;color:#dc2626;">1</span>
+          <p class="text-sm leading-relaxed" style="color:#475569;"><strong style="color:#1e293b;">Inconsistent evaluations</strong> — different interviewers apply different criteria, making fair comparison impossible.</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold" style="background:#fee2e2;color:#dc2626;">2</span>
+          <p class="text-sm leading-relaxed" style="color:#475569;"><strong style="color:#1e293b;">Hours lost to manual review</strong> — re-watching recordings to pull notes consumes time the team can't afford.</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold" style="background:#fee2e2;color:#dc2626;">3</span>
+          <p class="text-sm leading-relaxed" style="color:#475569;"><strong style="color:#1e293b;">Subjective scoring</strong> — bias creeps in when evaluations depend on memory and gut feel over data.</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold" style="background:#fee2e2;color:#dc2626;">4</span>
+          <p class="text-sm leading-relaxed" style="color:#475569;"><strong style="color:#1e293b;">No audit trail</strong> — hiring decisions lack documentation, creating compliance and legal exposure.</p>
+        </div>
+      </div>
+
+      <!-- Supporting image -->
+      <div class="mt-auto pt-6 rounded-xl overflow-hidden" style="height:7rem;">
+        <img
+          src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=overwhelmed%20hiring%20manager%20surrounded%20by%20scattered%20papers%20and%20sticky%20notes%2C%20stressed%20expression%2C%20warm%20muted%20tones%2C%20editorial%20style"
+          class="w-full h-full object-cover rounded-xl"
+          alt="Hiring process pain"
+          style="object-position:center 30%;"
+        />
+      </div>
+    </div>
+
+    <!-- Solution side -->
+    <div class="sl-solution flex flex-col p-10 bg-white">
+      <!-- Label -->
+      <div class="inline-flex items-center gap-2 rounded-md px-3 py-1 mb-5 self-start" style="background:#dcfce7;">
+        <span style="color:#16a34a;font-size:0.95rem;">✓</span>
+        <span class="text-xs font-bold uppercase tracking-wider" style="color:#15803d;">The Solution</span>
+      </div>
+
+      <h2 class="font-bold mb-6" style="font-size:1.5rem;color:#0f172a;line-height:1.25;">
+        AI That Turns Recordings<br/>Into Intelligence
+      </h2>
+
+      <div class="flex flex-col gap-3">
+        <div class="rounded-lg p-4" style="background:#f0f9ff;border-left:3px solid #0ea5e9;">
+          <p class="text-sm leading-relaxed" style="color:#0f172a;"><strong>AI Transcription & Analysis</strong> — every word captured, every emotion detected, every competency signal scored automatically.</p>
+        </div>
+        <div class="rounded-lg p-4" style="background:#f0f9ff;border-left:3px solid #0ea5e9;">
+          <p class="text-sm leading-relaxed" style="color:#0f172a;"><strong>Standardized Rubric Scoring</strong> — custom or predefined competency frameworks applied consistently across every candidate.</p>
+        </div>
+        <div class="rounded-lg p-4" style="background:#f0f9ff;border-left:3px solid #0ea5e9;">
+          <p class="text-sm leading-relaxed" style="color:#0f172a;"><strong>Auto-Generated Reports</strong> — structured evaluations with quotes, scores, and recommendations ready in minutes.</p>
+        </div>
+        <div class="rounded-lg p-4" style="background:#f0f9ff;border-left:3px solid #0ea5e9;">
+          <p class="text-sm leading-relaxed" style="color:#0f172a;"><strong>Full Audit Coverage</strong> — every session timestamped, stored, and traceable for compliance and fair hiring.</p>
+        </div>
+      </div>
+
+      <!-- Key differentiator -->
+      <div class="mt-auto pt-5 rounded-xl p-4 flex items-start gap-3" style="background:#0f172a;">
+        <span style="font-size:1.25rem;flex-shrink:0;">💡</span>
+        <p class="text-xs leading-relaxed" style="color:#cbd5e1;"><strong style="color:#7dd3fc;">Key differentiator:</strong> Interview Analyzer doesn't replace human judgment — it removes the noise around it, so your hiring team focuses on what matters most.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
