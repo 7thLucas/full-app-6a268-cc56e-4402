@@ -3,3 +3,10 @@ node_modules
 .docker
 skaffold.yaml
 k8s
+_doc
+.tmp
+dist
+build
+coverage
+DESIGN.md
+PRODUCT.md

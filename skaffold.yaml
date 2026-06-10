@@ -23,6 +23,9 @@ build:
         - '*.ts'
         - '*.js'
         - 'tsconfig.json'
+        - '*.css'
+        - '*.json'
+        - '*.html'
 manifests:
   rawYaml:
     - k8s/*.yaml
